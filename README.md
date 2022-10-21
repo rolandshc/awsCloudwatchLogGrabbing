@@ -9,4 +9,4 @@ Built with Python3, Poetry, Boto3, argparse
 5. goto `https://xxx.awsapps.com/start#/`
 6. login and get the AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_SESSION_TOKEN
 7. Replace the `log_group_name_prefix` and `filter_pattern` with string you want to search
-8. In the cell run the command (update the command with your parameters): `aws-log -aws_access_key_id AWS_ACCESS_KEY_ID -aws_secret_access_key AWS_SECRET_ACCESS_KEY -aws_session_token AWS_SESSION_TOKEN -region_name us-east-1 -log_group_name_prefix YOUR_PREFIX -filter_pattern "INFO"`
+8. In the cell run the command (update the command with your parameters): `aws-log -aws_access_key_id AWS_ACCESS_KEY_ID -aws_secret_access_key AWS_SECRET_ACCESS_KEY -aws_session_token AWS_SESSION_TOKEN -region_name us-east-1 -log_group_name_prefix YOUR_PREFIX -filter_pattern "YOUR_STRING"`
