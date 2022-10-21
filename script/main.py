@@ -44,7 +44,7 @@ def start():
     latest_log_stream_timestamp = response['logStreams'][0]['creationTime']
     latest_log_stream_datetime = datetime.fromtimestamp(latest_log_stream_timestamp/1000.0)
     print('latest_log_stream_name ',latest_log_stream_name)
-    print('latest_log_stream_datetime ',latest_log_stream_datetime)
+    print('latest_log_stream_creation_datetime ',latest_log_stream_datetime)
 
     response = client.filter_log_events(
         logGroupName=latest_log_group_name,
