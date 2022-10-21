@@ -1,3 +1,5 @@
 poetry.lock
 README.rst
 test/
+.DS_Store
+script/__pycache__
